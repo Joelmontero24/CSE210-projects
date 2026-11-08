@@ -1,5 +1,5 @@
 using System;
-
+//This program exceeds the standard core requirements by implementing a dynamic custom prompt management feature.
 class Program
 {
     static void Main(string[] args)
