@@ -31,7 +31,7 @@ public class Journal
         {
             foreach (Entry entry in _entries)
             {
-                // Using '~|~' as a safe separator to avoid comma issues
+              
                 outputFile.WriteLine($"{entry.GetDate()}~|~{entry.GetPromptText()}~|~{entry.GetEntryText()}");
             }
         }
